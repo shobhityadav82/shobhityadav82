@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050914"/><stop offset=".55" stop-color="#07172b"/><stop offset="1" stop-color="#030711"/></linearGradient>
+<linearGradient id="a"><stop stop-color="#28d7ff"/><stop offset=".5" stop-color="#1769ff"/><stop offset="1" stop-color="#55ffb0"/></linearGradient>
+<radialGradient id="g"><stop stop-color="#20cfff" stop-opacity=".25"/><stop offset="1" stop-color="#20cfff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#63cfff" stroke-opacity=".07"/></pattern>
+<filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+</defs>
+
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<rect width="1920" height="1080" fill="url(#grid)"/>
+<circle cx="1540" cy="180" r="430" fill="url(#g)" filter="url(#blur)"/>
+<circle cx="240" cy="900" r="300" fill="url(#g)" opacity=".45" filter="url(#blur)"/>
+
+<rect x="42" y="42" width="1836" height="996" rx="34" fill="none" stroke="#54dfff" stroke-opacity=".22"/>
+<rect x="52" y="52" width="1816" height="976" rx="28" fill="none" stroke="url(#a)" stroke-width="2">
+<animate attributeName="stroke-opacity" values=".3;.95;.3" dur="4s" repeatCount="indefinite"/>
+</rect>
+
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+<rect x="112" y="105" width="272" height="44" rx="22" fill="#0b1c31" stroke="#36d9ff" stroke-opacity=".4"/>
+<circle cx="139" cy="127" r="6" fill="#55ffb0"><animate attributeName="opacity" values=".25;1;.25" dur="1.5s" repeatCount="indefinite"/></circle>
+<text x="158" y="133" fill="#bdefff" font-size="16" font-weight="700" letter-spacing="2">GITHUB • PROFILE</text>
+
+<text x="112" y="280" fill="#fff" font-size="80" font-weight="800">Shobhit Yadav</text>
+<text x="116" y="333" fill="#63ddff" font-size="28" font-weight="650">Student • Web Developer • Frontend Learner</text>
+<text x="116" y="383" fill="#aabbd0" font-size="22">Exploring technology, building for the web, and turning ideas into code.</text>
+
+<rect x="112" y="430" width="820" height="470" rx="28" fill="#081526" fill-opacity=".82" stroke="#35cfff" stroke-opacity=".25"/>
+<text x="150" y="480" fill="#fff" font-size="24" font-weight="800">SYSTEM.INFO</text>
+<text x="150" y="509" fill="#6f8ba8" font-size="13" letter-spacing="2">PROFILE DATA / LIVE</text>
+
+<g font-family="monospace" font-size="17">
+<text x="150" y="557" fill="#63ddff">Subject</text><text x="390" y="557" fill="#7c8da2">................................</text><text x="700" y="557" fill="#e8f8ff">Shobhit Yadav</text>
+<text x="150" y="598" fill="#63ddff">Role</text><text x="390" y="598" fill="#7c8da2">....................................</text><text x="700" y="598" fill="#e8f8ff">Frontend Learner</text>
+<text x="150" y="639" fill="#63ddff">Status</text><text x="390" y="639" fill="#7c8da2">..................................</text><text x="700" y="639" fill="#55ffb0">LEARNING + BUILDING</text>
+<text x="150" y="680" fill="#63ddff">Core.Lang</text><text x="390" y="680" fill="#7c8da2">...............................</text><text x="700" y="680" fill="#e8f8ff">HTML / CSS / JS / Python</text>
+<text x="150" y="721" fill="#63ddff">Core.Tools</text><text x="390" y="721" fill="#7c8da2">...............................</text><text x="700" y="721" fill="#e8f8ff">Git / GitHub / Linux</text>
+<text x="150" y="762" fill="#63ddff">Knowledge</text><text x="390" y="762" fill="#7c8da2">...............................</text><text x="700" y="762" fill="#e8f8ff">Web + IT + Science</text>
+<text x="150" y="803" fill="#63ddff">GitHub</text><text x="390" y="803" fill="#7c8da2">...................................</text><text x="700" y="803" fill="#55ffb0">@Shobhityadav82</text>
+<text x="150" y="844" fill="#63ddff">Mode</text><text x="390" y="844" fill="#7c8da2">....................................</text><text x="700" y="844" fill="#ff6b6b">● LIVE</text>
+</g>
+
+<circle cx="1420" cy="495" r="350" fill="none" stroke="#36d9ff" stroke-opacity=".11" stroke-dasharray="5 14">
+<animateTransform attributeName="transform" type="rotate" from="0 1420 495" to="360 1420 495" dur="28s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1420" cy="495" r="290" fill="none" stroke="#55ffb0" stroke-opacity=".12" stroke-dasharray="2 18">
+<animateTransform attributeName="transform" type="rotate" from="360 1420 495" to="0 1420 495" dur="20s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1420" cy="495" r="180" fill="#08192c" stroke="#36d9ff" stroke-opacity=".32"/>
+<text x="1420" y="470" fill="#fff" font-size="34" font-weight="800" text-anchor="middle">SHOBHIT</text>
+<text x="1420" y="505" fill="#63ddff" font-size="19" text-anchor="middle">@Shobhityadav82</text>
+<text x="1420" y="545" fill="#7890a8" font-size="15" text-anchor="middle">WEB • CODE • LEARN</text>
+
+<g font-size="18" font-weight="800" text-anchor="middle">
+<g transform="translate(1420 145)"><circle r="48" fill="#0b2035" stroke="#ff874f" stroke-opacity=".65"/><text y="6" fill="#ffb38f">HTML</text></g>
+<g transform="translate(1770 495)"><circle r="48" fill="#0b2035" stroke="#3ba9ff" stroke-opacity=".7"/><text y="6" fill="#8ed6ff">CSS</text></g>
+<g transform="translate(1420 845)"><circle r="48" fill="#0b2035" stroke="#ffe05a" stroke-opacity=".7"/><text y="6" fill="#fff0a0">JS</text></g>
+<g transform="translate(1070 495)"><circle r="48" fill="#0b2035" stroke="#55ffb0" stroke-opacity=".65"/><text y="6" fill="#a2ffcf">GIT</text></g>
+</g>
+
+<text x="1070" y="925" fill="#7890a8" font-size="14" letter-spacing="2">TECHNOLOGIES</text>
+<text x="1070" y="963" fill="#d9f7ff" font-size="19">HTML • CSS • JavaScript • Git • GitHub • Linux • Python</text>
+<text x="1770" y="963" fill="#55ffb0" font-size="16" text-anchor="end">github.com/Shobhityadav82</text>
+</g>
+
+<rect x="72" y="70" width="1776" height="3" fill="#63ddff" opacity=".07">
+<animate attributeName="y" values="70;1010;70" dur="9s" repeatCount="indefinite"/>
+</rect>
+</svg>
