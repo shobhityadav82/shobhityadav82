@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1600 900"
+     width="1600" height="900"
+     preserveAspectRatio="xMidYMid meet">
+
+  <title>Shobhit Yadav — Hacker Developer Profile</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02050a"/>
+      <stop offset=".5" stop-color="#06111a"/>
+      <stop offset="1" stop-color="#010207"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00eaff"/>
+      <stop offset=".5" stop-color="#35ff7d"/>
+      <stop offset="1" stop-color="#00eaff"/>
+    </linearGradient>
+
+    <radialGradient id="centerGlow">
+      <stop offset="0" stop-color="#00eaff" stop-opacity=".18"/>
+      <stop offset=".55" stop-color="#00ff88" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00eaff" stroke-opacity=".055"/>
+    </pattern>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="bigGlow">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .white{fill:#effaff}
+      .cyan{fill:#00eaff}
+      .green{fill:#35ff7d}
+      .muted{fill:#8ca5b3}
+      .panel{fill:#030b12;fill-opacity:.88;stroke:#00eaff;stroke-opacity:.62;stroke-width:2}
+      .title{font-size:54px;font-weight:900;letter-spacing:2px}
+      .head{font-size:28px;font-weight:900;letter-spacing:2px}
+      .body{font-size:21px}
+      .skill{font-size:20px;font-weight:700}
+    </style>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <ellipse cx="805" cy="445" rx="510" ry="430" fill="url(#centerGlow)">
+    <animate attributeName="opacity" values=".55;1;.55" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- ANIMATED SCAN LINE -->
+  <rect x="0" y="0" width="1600" height="3" fill="#35ff7d" opacity=".65" filter="url(#glow)">
+    <animate attributeName="y" values="0;897;0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- TOP TERMINAL -->
+  <g transform="translate(38 30)">
+    <text class="mono" font-size="25" fill="#35ff7d">$ shobhit@kali:~$</text>
+    <text x="0" y="35" class="mono" font-size="24" fill="#00eaff">/learn--build-repeat</text>
+    <text x="0" y="68" class="mono" font-size="19" fill="#8ca5b3">
+      <tspan fill="#35ff7d">●</tspan> status:
+      <tspan fill="#35ff7d" font-weight="900"> ONLINE</tspan> coding mode
+    </text>
+  </g>
+
+  <!-- LEFT KNOWLEDGE -->
+  <g transform="translate(35 155)">
+    <path class="panel" d="M0 22L22 0H470L492 22V310L470 332H22L0 310Z"/>
+    <text x="30" y="48" class="sans head cyan">KNOWLEDGE</text>
+    <path d="M300 42H458" stroke="#00eaff" stroke-width="3"/>
+    <path d="M350 51H430" stroke="#35ff7d" stroke-width="2"/>
+
+    <g class="sans skill white">
+      <text x="30" y="100">✦ <tspan dx="12">Complete Science</tspan></text>
+      <text x="30" y="148">✦ <tspan dx="12">IT Tools &amp; Networking</tspan></text>
+      <text x="30" y="196">✦ <tspan dx="12">Web Designing</tspan></text>
+      <text x="30" y="244">✦ <tspan dx="12">Frontend Development</tspan></text>
+      <text x="30" y="292">✦ <tspan dx="12">Cyber Security &amp; Ethical Hacking</tspan></text>
+    </g>
+
+    <circle cx="450" cy="286" r="4" fill="#35ff7d" filter="url(#glow)">
+      <animate attributeName="r" values="3;7;3" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- LEFT TECHNOLOGY -->
+  <g transform="translate(35 520)">
+    <path class="panel" d="M0 22L22 0H470L492 22V270L470 292H22L0 270Z"/>
+    <text x="30" y="48" class="sans head cyan">TECHNOLOGY</text>
+
+    <g class="sans" font-weight="900" text-anchor="middle">
+      <g transform="translate(82 105)">
+        <rect x="-48" y="-28" width="96" height="58" rx="10" fill="#101820" stroke="#ff693d"/>
+        <text y="8" font-size="22" fill="#ff693d">HTML</text>
+      </g>
+      <g transform="translate(190 105)">
+        <rect x="-48" y="-28" width="96" height="58" rx="10" fill="#101820" stroke="#3280ff"/>
+        <text y="8" font-size="22" fill="#3280ff">CSS</text>
+      </g>
+      <g transform="translate(315 105)">
+        <rect x="-60" y="-28" width="120" height="58" rx="10" fill="#101820" stroke="#ffd43b"/>
+        <text y="8" font-size="21" fill="#ffd43b">JavaScript</text>
+      </g>
+      <g transform="translate(415 105)">
+        <rect x="-38" y="-28" width="76" height="58" rx="10" fill="#101820" stroke="#ff5b3d"/>
+        <text y="8" font-size="21" fill="#ff5b3d">Git</text>
+      </g>
+
+      <g transform="translate(82 190)">
+        <rect x="-48" y="-28" width="96" height="58" rx="10" fill="#101820" stroke="#f5fbff"/>
+        <text y="8" font-size="20" fill="#f5fbff">GitHub</text>
+      </g>
+      <g transform="translate(205 190)">
+        <rect x="-48" y="-28" width="96" height="58" rx="10" fill="#101820" stroke="#ffd43b"/>
+        <text y="8" font-size="21" fill="#ffd43b">Linux</text>
+      </g>
+      <g transform="translate(330 190)">
+        <rect x="-55" y="-28" width="110" height="58" rx="10" fill="#101820" stroke="#35ff7d"/>
+        <text y="8" font-size="21" fill="#35ff7d">Python</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CENTER HUD -->
+  <g transform="translate(800 455)">
+    <circle r="330" fill="none" stroke="#00eaff" stroke-opacity=".12" stroke-width="2"/>
+    <circle r="280" fill="none" stroke="#35ff7d" stroke-opacity=".24"
+            stroke-width="2" stroke-dasharray="8 16">
+      <animateTransform attributeName="transform" type="rotate"
+                        from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="245" fill="none" stroke="#00eaff" stroke-opacity=".28"
+            stroke-width="3" stroke-dasharray="70 20">
+      <animateTransform attributeName="transform" type="rotate"
+                        from="360" to="0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ASCII HOODED HACKER -->
+    <g class="mono" text-anchor="middle" font-weight="900" font-size="16">
+      <text y="-190" fill="#00eaff">.::;ii11';.      .::i11;.      .^l0.</text>
+      <text y="-170" fill="#35ff7d">   .8888&quot;       88888888.     888</text>
+      <text y="-150" fill="#00eaff"> .8888&quot; .::888  8888. 8888.  .888</text>
+      <text y="-130" fill="#35ff7d">88888.  .:8888  8888.  8888  .8888</text>
+      <text y="-110" fill="#00eaff">88888  8888888  88888  8888  88888</text>
+      <text y="-90"  fill="#35ff7d">88888  8888888  8888888 8888 88888</text>
+      <text y="-70"  fill="#00eaff">88888   88888    888888  888 88888</text>
+      <text y="-50"  fill="#35ff7d"> 8888    8888     88888   88 8888</text>
+      <text y="-30"  fill="#00eaff">   88    8888      8888      888</text>
+      <text y="-10"  fill="#35ff7d">    88888888888888888888888888</text>
+      <text y="10"   fill="#00eaff">      8888888888888888888888</text>
+      <text y="30"   fill="#35ff7d">       8888    8888    8888</text>
+      <text y="50"   fill="#00eaff">      8888     8888     8888</text>
+      <text y="70"   fill="#35ff7d">    88888      8888      88888</text>
+      <text y="90"   fill="#00eaff">  888888      888888      888888</text>
+      <text y="110"  fill="#35ff7d">8888888888   88888888   888888888</text>
+      <text y="130"  fill="#00eaff">888888888888888888888888888888888</text>
+      <text y="150"  fill="#35ff7d">888888888888888888888888888888888</text>
+      <text y="170"  fill="#00eaff">  88888888888888888888888888888</text>
+
+      <animate attributeName="opacity"
+               values=".65;1;.65" dur="2.2s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- EYES -->
+    <g fill="#35ff7d" filter="url(#bigGlow)">
+      <path d="M-72 -4Q-38-32-5-4Q-38 20-72-4Z"/>
+      <path d="M5-4Q38-32 72-4Q38 20 5-4Z"/>
+      <animate attributeName="opacity" values=".55;1;.55" dur="1.4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- CENTER CODE TERMINAL -->
+    <g transform="translate(-270 205)">
+      <rect width="540" height="128" rx="15" fill="#02080d"
+            stroke="#35ff7d" stroke-width="3" filter="url(#glow)"/>
+      <text x="20" y="32" class="mono" font-size="18" fill="#00eaff">&gt;_ const future = ["learn", "build", "hack"];</text>
+      <text x="20" y="62" class="mono" font-size="18" fill="#35ff7d">while (dreams) { code(); }</text>
+      <text x="20" y="92" class="mono" font-size="18" fill="#ffd43b">console.log("KEEP GOING");</text>
+      <text x="20" y="116" class="mono" font-size="16" fill="#b66cff">/SHOBHIT DEV  •  @shobhityadav82</text>
+      <rect x="20" y="39" width="3" height="18" fill="#00eaff">
+        <animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- RIGHT QUOTE -->
+  <g transform="translate(1190 55)">
+    <path class="panel" d="M0 25L25 0H365L390 25V185L365 210H25L0 185Z"/>
+    <text x="30" y="58" font-size="52" fill="#35ff7d">“</text>
+    <text x="72" y="65" class="sans" font-size="20" fill="#effaff">Not just a user,</text>
+    <text x="72" y="96" class="sans" font-size="20" fill="#effaff">I'm a creator of my</text>
+    <text x="72" y="127" class="sans" font-size="20" fill="#effaff">own future.</text>
+    <text x="330" y="162" font-size="52" fill="#35ff7d">”</text>
+  </g>
+
+  <!-- RIGHT GITHUB -->
+  <g transform="translate(1190 290)">
+    <path class="panel" d="M0 25L25 0H365L390 25V315L365 340H25L0 315Z"/>
+    <text x="30" y="55" class="sans head cyan">GITHUB</text>
+    <rect x="30" y="78" width="300" height="48" rx="24"
+          fill="#031016" stroke="#35ff7d" stroke-width="2"/>
+    <text x="180" y="109" text-anchor="middle" class="mono"
+          font-size="20" fill="#35ff7d">@shobhityadav82</text>
+
+    <g class="sans body white">
+      <text x="35" y="165">◉  Followers : 0</text>
+      <text x="35" y="207">◉  Following : 0</text>
+      <text x="35" y="249">◉  Public Repos : 0</text>
+      <text x="35" y="291">◉  Contributions : 0</text>
+    </g>
+
+    <text x="35" y="322" class="sans" font-size="17" fill="#35ff7d">
+      Build • Commit • Grow
+    </text>
+  </g>
+
+  <!-- RIGHT CODE / SIGNATURE -->
+  <g transform="translate(1190 665)">
+    <text x="0" y="30" class="mono" font-size="19" fill="#00eaff">CODE • LEARN • BUILD • REPEAT</text>
+    <text x="0" y="80" class="sans" font-size="39" font-weight="900"
+          fill="#35ff7d">Shobhit Yadav</text>
+    <path d="M0 94Q150 65 365 90" fill="none" stroke="#00eaff" stroke-width="3"/>
+  </g>
+
+  <!-- ANIMATED PARTICLES -->
+  <g fill="#35ff7d" filter="url(#glow)">
+    <circle cx="550" cy="120" r="3">
+      <animate attributeName="cy" values="120;160;120" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1070" cy="170" r="4">
+      <animate attributeName="opacity" values=".2;1;.2" dur="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1130" cy="610" r="3">
+      <animate attributeName="r" values="2;6;2" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- FOOTER -->
+  <rect y="850" width="1600" height="50" fill="#02060b" stroke="#00eaff" stroke-opacity=".35"/>
+  <text x="35" y="882" class="mono" font-size="17" fill="#35ff7d">
+    LEARN • EXPLORE • GROW
+  </text>
+  <text x="625" y="882" class="mono" font-size="17" fill="#00eaff">
+    /SHOBHIT DEV
+  </text>
+  <text x="1280" y="882" class="mono" font-size="17" fill="#35ff7d">
+    @shobhityadav82
+  </text>
+
+</svg>
